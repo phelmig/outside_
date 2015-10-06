@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+
+{% block title %}Outside{% endblock %}
+
+{% block menu_map %}active{% endblock %}
+{% block main %}
+    <style>
+        html, body, .container-fluid, #map_canvas {
+            height: 100%;
+        }
+
+        .container-fluid {
+            width: 100%;
+
+            top: 0;
+            padding: 0;
+        }
+
+        #map_canvas {
+
+        }
+    </style>
+    <div class="container">
+        <!--
+    {% for lead in leads %}
+    <div class="row b-b {% if lead.closed %}closed{% endif %} {% if lead.repeat_at %}repeat{% endif %}">
+    {% if not lead.closed  %}<a href="{{  url('lead-detail', id=lead.id) }}">{% endif %}
+    <div class="col-xs-12">
+    <h3>{{ lead.name }}</h3>
+        {% if lead.repeat_at %}<i class="fa fa-clock-o"></i> {{ lead.repeat_at }}<br/>{% endif %}
+    {{ lead.address }}
+</div>
+{% if not lead.closed %}</a>{% endif %}
+</div>
+
+    {% endfor %}
+    -->
+    </div>
+
+    <div class="container-fluid">
+        <div id="map_canvas" class="map_canvas"></div>
+    </div>
+
+    <script>
+        addLoadEvent(
+                function () {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    var mapDiv = document.getElementById("map_canvas");
+                    /// Set control options for map
+                    var zoptions = {
+                        position: google.maps.ControlPosition.TOP_RIGHT,
+                        style: google.maps.ZoomControlStyle.SMALL
+                    };
+                    /// Position of map using coord that were passed else do nothing.
+                    var pos = new google.maps.LatLng(0, 0);
+                    /// Set basic map options using above control options
+                    var options = {
+                        zoom: 14,
+                        zoomControlOptions: zoptions,
+                        mapTypeId: google.maps.MapTypeId.TERRAIN,
+                        center: pos,
+                        draggable: true
+                    };
+                    this.map = new google.maps.Map(mapDiv, options);
+
+                    {% for lead in leads %}
+                        {% if not lead.closed %}
+
+                    var pos = {lat: {{ lead.lat }}, lng: {{ lead.lng }}};
+
+                    var contentString = '<div id="content">' +
+                            '<div id="siteNotice">' +
+                            '</div>' +
+                            '{% if not lead.closed  %}<a href="{{  url('lead-detail', id=lead.id) }}">{% endif %}<h1 id="firstHeading" class="firstHeading">{{ lead.name }}</h1>{% if not lead.closed  %}</a>{% endif %}' +
+                            '<div id="bodyContent">' +
+                            '<p>{{ lead.address }}</p>' +
+                            '<p>' +
+                             '<div class="btn-group-vertical btn-block" role="group">' +
+                        '<a href="{{ url('lead-closed',id=lead.id) }}" class="btn btn-success btn-block">VERKAUF MELDEN</a>' +
+                        '<a href="{{ url('lead-repeat',id=lead.id) }}" class="btn btn-warning btn-block">SPÄTER WIEDERHOLEN</a>' +
+                        '<a href="{{ url('lead-feedback',id=lead.id) }}" class="btn btn-danger btn-block">FEEDBACK EINGEBEN</a>' +
+                    '</div>' +
+                            '</p>' +
+                            {% if lead.comment %}'<p>{{ lead.comment }}</p>' +{% endif %}
+                            '<p><i class="fa fa-phone"></i> {{ lead.phone }} {% if lead.google_places_url %} <br/><a href="{{ lead.google_places_url }}" target="_blank"><i class="fa fa-external-link"></i> Website</a>{% endif %}</p>' +
+                            '</div>' +
+                            '</div>';
+
+                    var infowindow{{ lead.id }} = new google.maps.InfoWindow({
+                        content: contentString
+                    });
+
+
+                    var marker{{ lead.id }} = new google.maps.Marker({
+                        position: pos,
+                        map: map,
+                        title: '{{ lead.name }}'
+                    });
+                    marker{{ lead.id }}.addListener('click', function () {
+                        if (typeof currentwindow !== 'undefined') {
+                            currentwindow.close();
+                        }
+                        currentwindow =infowindow{{ lead.id }};
+                        infowindow{{ lead.id }}.open(map, marker{{ lead.id }});
+                    });
+                        {% endif %}
+                    {% endfor %}
+
+                    map.setCenter(pos);
+
+
+                });
+    </script>
+
+    </div>
+{% endblock %}
+{% block additional_js %}
+    <script type='text/javascript'
+            src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+{% endblock %}

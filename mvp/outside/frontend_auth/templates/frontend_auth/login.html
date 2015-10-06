@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Einloggen{% endblock %}
+
+{% block main %}
+<div class="col-xs-12">
+    <div class="registration">
+        <h1>Bitte melde Dich an</h1>
+        <form class="m-t" id="login" name="login" role="form" method="post">
+            <div style="display:none">
+                <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+            </div>
+            {{ form|bootstrap }}
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="submit" class="btn btn-block btn-success block full-width m-b">Einloggen</button>
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+</div>
+{% endblock %}

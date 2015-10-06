@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Outside - {{ lead.name }}{% endblock %}
+
+{% block main %}
+
+    <div class="container">
+        <div class="col-xs-12">
+            <h1>{{ lead.name }}</h1>
+            {{ lead.address }}
+            <div class="">
+                <h2>Feedback eingeben</h2>
+
+                <form class="m-t" id="login" name="login" role="form" method="post">
+
+                    {% csrf_token %}
+                    {{ form|bootstrap }}
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p>
+                                <button type="submit" class="btn btn-block btn-danger block full-width m-b">FEEDBACK SPEICHERN
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+     <script type="text/javascript">
+                            //addLoadEvent();
+                        </script>
+    </div>
+{% endblock %}
+{% block additional_css %}
+
+{% endblock %}
+{% block additional_js %}
+
+{% endblock %}

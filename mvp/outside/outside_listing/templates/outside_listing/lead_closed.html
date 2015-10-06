@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Outside - {{ lead.name }}{% endblock %}
+
+{% block main %}
+
+    <div class="container">
+        <div class="col-xs-12">
+            <h1>{{ lead.name }}</h1>
+            {{ lead.address }}
+            <div class="alert alert-success">
+                <h2>Verkauf bestätigen</h2>
+                <form class="m-t" id="login" name="login" role="form" method="post">
+                    {% csrf_token %}
+                    {{ form|bootstrap }}
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button type="submit" class="btn btn-block btn-success block full-width m-b">BESTÄTIGEN
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

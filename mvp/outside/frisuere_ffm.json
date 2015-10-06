@@ -1,0 +1,462 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CuQB1wAAAHekYWMzdaDi1-J8APW4NszjOJRMjUSdAxdZuv9P_fAhjpX34rj_WH7JqAsJFtYNNC-prmqrZSzI-5ZAMeVXkljZsF2mGo_Ly9-Ene71jvAi2ZFeOvyCRwtMl2MowDmOf6dYAcsKdfV90mHLxhIomWwWBrEsbyvj96wq_v3HtljC-ovWEIEbO6InxniZh7mVwjs8UoXE3xyIolMesuO8Bxp8hx3GE_FkOj8Mat77Kua6ikAt33L7-8Y1UqIHZOatBDmo2mh5bLxG22HJ8vMfwwOBIB632-CE1IxgcXqEbHh4EhBCVKJgb81VOuELQQVHVqntGhSw5_1aD2Odp0AR_BGLjIrymqJkZw",
+   "results" : [
+      {
+         "formatted_address" : "Frankfurter Str. 183, 63263 Neu-Isenburg, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.04735,
+               "lng" : 8.69492
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8075e7d4e196fc343c8974d7d5a736e0a1d6eef3",
+         "name" : "Haarstudio im Zentrum GmbH",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJrze9--MMvUcRatFjrffBnrA",
+         "reference" : "CnRuAAAAsrH8bsktUSl0fyif8E3Qk9gvkZ34TXwg7BNqQhF6jEr_Miws0CyTtY2Ozzzxj1FVSf5jA9bUzUTYomtRZ2fvO1PLj5tYypc0BR9f3xyFQlexKgXCB4nUoCBpYXBOXDY7fLTeVpxt84vSMyQqNrzVEBIQ6wUKsbvMzPxvj4h0T4D9ihoUA1J704NZ4j8sf9xfafo9vmJzR7o",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Zeil 106, 60313 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.114875,
+               "lng" : 8.681886
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1b1eb7f8c5ad0fbad770e6748ea98ca86e3a53af",
+         "name" : "Salon Meyer & Marks Frankfurt",
+         "place_id" : "ChIJZ3J6h68OvUcRFq92wHQ7z64",
+         "reference" : "CoQBcQAAAF1rI80UG1pxvBT17UAGjJUNyMJ88MlIPTkzAd20o5cZu5AaiNxEHlo6_t6QVyGYCz-WCX-6ar8JXLmPLJS2FrqLvH3WdEyQ0DktnCyptmxyv3LFKaVSOekNPxJbLjQtSHsl88pNcn_ABWRSble1SZtR5PwpNyaK4ZW_UksgWpPDEhCQc1VnMiz0DFWmURakZdAdGhRdEC_ZSrEyMiijG07nAIgBbARCfA",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Große Bockenheimer Str. 43, 60313 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.114633,
+               "lng" : 8.673473
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a66d7db56313674085bc687714a68d14ab8f40ba",
+         "name" : "Licci Claudio",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJddvTSqwOvUcR_Oi2jJD3lI8",
+         "reference" : "CnRhAAAA7ifCXvJfkzX9R92xJNn6UfKVdvI7yd4f7jzEofy05b4hR0L6oSk9gCFRffKNIKjOcQWKn7gN2XryobCdGovwFQHidcnxpdO40wF-nDM7c3iMHrao_dZnRTufOgMrGqWewyIExSoaoSd4ESHx-CouBhIQuJUlNCWdiA2pHJ5IDvs7txoUwsF38lNx0LR00EzslLejo-V5K-Y",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Große Eschenheimer Str. 39A, 60313 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.115908,
+               "lng" : 8.679434000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "165947f780497aeb2284148288d138016254e41f",
+         "name" : "C & M Company GmbH",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJPSRKzK8OvUcR4p7D0cHL1aI",
+         "rating" : 3.1,
+         "reference" : "CnRmAAAAcIv_Oi8l-L-mp1W_9pai1PAJ4mNPIcnqglBlTYuYo9Qn7YMdR92qf3lIZWTF1gCfebS0838kl6ox3--Mh3vB1LLLzS5sTxSqfgH6nvn-fyb9LvmZXnn_eeM_X-Qa0gEIuS4NXRz86Cy6qTRX-QkL3hIQCMdfFXtjrvEFLzBPmge4jBoU6QaItP-W_h1ubeOHLyFhvzYVIvM",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Borsigallee 26, 60388 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.139969,
+               "lng" : 8.75065
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3ed7903ad33459d58ff7ce8b01ca465ac59441e0",
+         "name" : "essanelle Ihr Friseur",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115525091688964807355\"\u003eessanelle Ihr Friseur\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAIAa7WUwDdhXSqzMeMwLwH3KtMGziJ9V5Nuyw17RT_8TUXOf091EOwOSxqMFKQaVkw8CDn61BXS_8TPn3ukv4FiL5rDdDGPDtvfayL3UWMZkEJwbjfn95Dfc4IXF-zbUeEhBgo_zLDbzURfqD7SU1WtY1GhTY7QDw2WUmns4U7yiSoY_v2Y3CBw",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJm43DXUwOvUcRUt8yARezxkk",
+         "reference" : "CnRoAAAA2y37XYbLdoVdlTTq8wPiLYYGFqWOrs9KK2zB25NxYI0tFnEp-JG30eez54EImgTRe34DaIdzzbHXSvRRP83ZEgbX8vChKbGtDaqRcd51ST0o8AIA_Fyp5GqFXfcd5jbhfZIBVmb87w2QJUqosHr2gBIQHrPQOK4890gp8_5QobP9_xoUeSSWRY9-MgYcP_BRGUy3bkgxyfw",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Glauburgstraße 38, 60318 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.12692,
+               "lng" : 8.687155000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3f99ba0681aa9d991f04bd31624a00f6a568f81e",
+         "name" : "K1-FRISEURE",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1452,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108441748807190221519\"\u003eDawid Markosjan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAxnmiSC0ZWvHmkuQQzCN-EppiHzv2VvxOdGtU1KIcqDcjIRzTDEZ6hzALDUhB1t5PSWSqbI9U_pwrB39Z2jJ0-Ntu_WRwnBk_TKZJw6i_rjmcFz1QfRfBFqOzN9GKZtkUEhALbOMKAH4LOyDaP8wsRq9PGhQvCg1h1FLWvRGNfgW1hGqrPLYPjQ",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJJZB89McOvUcR6qjHDxB4qRs",
+         "reference" : "CmReAAAAf7fT5nUNHnHqC_Iu9wfMPu54BZ-qehEPub5AGextwqK8CUCfnR0Ln3pmMTIRujygWuVo2BvKO9tzPzof3enXV2NF4sYDyKeLGSarcqW7bKD3G3N15XGHJ8puErwPDohJEhDunCcPN5GSXCTfO8kcWfLMGhTt0VeXiJn5Luz3fJAc5tSXvrKGqQ",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Elefantengasse 2, 60313 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.117092,
+               "lng" : 8.686642000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "46dbf1abf470fe6e19d61be63a849cf8707f5dbb",
+         "name" : "Abschnitt Gino's Hair Design Biagio Storelli GmbH",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 767,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104664964290653864474\"\u003eAbschnitt Gino&#39;s Hair Design Biagio Storelli GmbH\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAA91YVBoAIJEoIdJRBk-XYmrLKjCxFbsoRwa0bZWNY25IEx-YZ2iI0Wo9R_NaLnGG1SKTrmMUikfd4LwQOsJeMDncQiismOt6tdFqoAZFy9iHHbOXGaprsgtd1LiOegkQkEhAvnvKIBQh4g1OBU6oijLErGhRKw_WmDRGRVtoprLdf2GGOj4kKrA",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJ80XUVaQOvUcRHaHo3SewjmQ",
+         "reference" : "CpQBhQAAABjJoHFtPGvpJ8NrOf7idkplYfM1ULAd-GdurjCJKDsOLGyaAdClFjOj89AKc7N8RxWNbJWHGNricj-tldG1Aqblhb0O406tBHlU7JJrWvx-797xpanJ7IwJnBrGoQIysUZrblhUNMNQJu5ZCoeCr_m8sIFLSaPjcGu6fzrO1m91zrHv5hlHjHCvg_q0Yv8p3RIQ8pdG0RieUb6BGPuUfSs8pBoUuYlhnUrtRulv5V3p8rggsF_AImQ",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Heerstraße 50, 60488 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.148613,
+               "lng" : 8.616647
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c8f8e28def8e4ea9dac9f3f097943907dfdd84c1",
+         "name" : "MIREL Friseure Praunheim",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111748666227418098559\"\u003eMIREL Friseure Praunheim\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAL8Vuv4-Z24jyRffBRjTaRKwNsTzJSi2ERuH8z4yXk-S6rH-n1865e_PdvkzaHWpNY0WkxUaMRfxTW-Fi64L4hq5f81WLcrKeIV-fyk-pMPx2g146wCOjKJ3LryNaj2uCEhC1ZL2Q9TehntdRl6LV7Ny7GhSqXDyxF7nt3MGg9YFdoINUAaPPRw",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ-SuYNawJvUcR8clZGWGAflY",
+         "reference" : "CnRrAAAAUNdH0w8ZANpX1O5SpzpxEV6TKGpXhW20NvQkIRhBZV6nBrYfzFvj1doQmlClEoeVPmVJ5F3XT6K0ZWw6y7_jwMGqpfTfj3hMtuB901NtlzB13-Ly6B-6UyZsLcDIBH5Q2ow9RSM2HviHDXynr8PGpxIQsHv_MfjNj04qV6jECCBiSBoUeN3j_p4GqXTyH5RFrt-jATaI7D0",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Altenhöferallee 80, 60438 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.178053,
+               "lng" : 8.629403999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3d8736f035fabb2ee5b81cd5266d45af687ed4a1",
+         "name" : "MIREL Friseure Riedberg",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1346,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102496124751534348475\"\u003eMIREL Friseure Riedberg\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAy3XCZ5l9b4x8tGfOswOSRAc37GcYDmZ6CLSCQNt8S5fslyCBw7RFFVGqx3YFdURCFOJLgyOvog2X4ovtT6wu19ZCVm4m5ZDLyPnPDaRI2AXgBwaZ_JZcUeyhIaPSwhg7EhAuHKthss0uIOmvUErwCd4aGhT2Xugd2JZ552MntjYOS5VLHtx1cg",
+               "width" : 1350
+            }
+         ],
+         "place_id" : "ChIJsRbx-mMIvUcRNmCEUAEMx0g",
+         "reference" : "CnRqAAAA8oPlXdE3uzRGyudTrJovV0Nu6tQ02q_l4RimrfLIqok6wxrdm9BNqKtX9tbSdiRQLR-z4M-8NaLjWHanxhioDIGuvJCmD5V79qJlRFh9GiLSpVdbLroHBWMtlzTFKttW-ExOuU8Vg9xH9PGK77VBZBIQCJGAl-Eak8V8m5H-fGyjRxoUZm90hB2hxUCxY8ZFInMFgX2qHbc",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Eschersheimer Landstraße 355A, 60320 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.14292,
+               "lng" : 8.66836
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "0b07c34eb421492946ac507a697adbff38eb7fe2",
+         "name" : "Mekki",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJdTka0C4JvUcRtuVinAq4y7Q",
+         "reference" : "CmRZAAAAYRWq61V98e2O2ZAJjCIJzl-XeTrSi7vseLX3Nz4MIFwDg1wuBDjC9mpcOWpnOkIYmwtpo7aDYCgafnrTe20qcit6pa7lGKkJLUrh54zSYBsm0zxKt5u2yJFW1Nzo8g67EhBMDiyxhyn8sLyn1uW57QU5GhSRtCBtysMASXdCuRs5gn1F_Ht-fA",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Eckenheimer Landstraße 124, 60318 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.127178,
+               "lng" : 8.685638000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "314bf23cedd6df632b0eb224ea9610e7a64da638",
+         "name" : "Schamlos",
+         "place_id" : "ChIJGy9LBsgOvUcRjXzNLGvwfho",
+         "reference" : "CmRbAAAAs6aONXExd_I_VF0ecIjlPGSPq6K-Qkw7Tz9QVxiJlmVmCMBZdf0oMvQkENcwwI8aMljKZP0hHL4IF7RzDerBQwpFy58G5bziyPLikUPHzX3aripwzehCNeUK78tUD_hCEhAPofc39uo1B0y2UpJP822IGhT5xigw1hT4Tar-V_ArPK4Z8ogrZw",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Eschersheimer Landstraße 533, 60431 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.152661,
+               "lng" : 8.661098000000001
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7ab0c2a9ebd6864a0db7fdc6e966e12a8fc8204d",
+         "name" : "Ziemann Ingrid",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJieYSMdkIvUcRjkDi5VyfyQs",
+         "reference" : "CnRhAAAAIwp7DSmAqsFdFnotr-cv5RXmLL4ZVcu0maGDlc2ka6QIrieE0bZ2GYrZZQ2stglAhMyklJXkDo0N5FV_FdapsRdaB-3rIm7TN6b6P3wwfxOoz6GtO7Z0XxexBTKYGpv9m0FE9c3xWc45M0xR7rIHwBIQmX86lA6kfeMSQJvZmt5TmBoUKZ4uwNwlSIcUkDCykVCa3GFux7E",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Frankfurter Str. 59, 63067 Offenbach am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.104838,
+               "lng" : 8.757949999999999
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "fa43d99678388e28beeeeff5ab4d105f4311126b",
+         "name" : "Haare Peter Hartmann GmbH",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJYRfGpAgOvUcR_XCezqA88Xc",
+         "reference" : "CnRsAAAAutvrfkWxnJgD-MhvyR1pv7l6HGCHdOLPML67P0ykW-wk4mJFmc7gvF4oaKWORQZapgSfYXIbVlzcVAV23P7P02JcDSubX5SFWD3sIWOJvBjt0Wf_AV_YfqDXVsNNaMYXOzmWQes02zdrVnHeuRL9phIQ5wfikWiOIBtZiUuPNgntERoUOuW2ssy8WXiAoiBhMEeKJcHBJGY",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Rotlintstraße 52, 60316 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.126567,
+               "lng" : 8.69417
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3c0f79788df534122df5e25a77112f15bd67cdde",
+         "name" : "indiskret Friseur",
+         "place_id" : "ChIJa2v1l8AOvUcRZJRIIyVLB18",
+         "reference" : "CnRkAAAAyTTk-Jhngr_Py976pu6HIkQuVBCQxANeHuJ8ik944zI02BoM1fvr_9CnsKR7gRpHVDbSZ7XPp_1h1qFPc4kNkJztqyuSIJiZFf1KKZ4mcVsQvP36VHOQFuO_mVtlzNyY193trjwwwn7b2mFjbqfNJhIQkD0rCFPKi4aY-NUZu5-A0xoUSH3rce1NKhPu0lqnjUtNDe9RsAU",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Schweizer Str. 11, 60594 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.104759,
+               "lng" : 8.678609
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a4169f4177564b0826edc5a4bd8f100f4e14ef2e",
+         "name" : "Schloberg GmbH",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 644,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103135799133846270164\"\u003eSchloberg GmbH\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAA3WNrNy1nA0zZShPI-vYVNQUKec4sN3PXmlxfY-Ez5EyqDekQmG36eLpUj_fnMwkf-RPfBvLUF6g7tElAmz4px3LVLEzgJIiBAGk724rl_8TfRZJxP8-tkxdytxbUFfP9EhBc7yrJS5xjKIvE2c6EUaZfGhS8PMi-HIHkdszb7XYH999Jze5Ffw",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJV8o-zAIMvUcR2gsNMs9EJgs",
+         "reference" : "CnRhAAAAt7djlyar3J39KL75xdgpsZ63Mg-NXQ8Cue_BEZzYyNdiVtDpXw-KMIp0YXOvy8U0uloxbvpX9aK8ryrckT28xOYXBiKCP3T0XaIELjBnSFB82caq2HcKr5hLD4VQrqcukkf6GbtiHFHbNNgWskSWxRIQdrUgmy1FigmN0M9JvbzC4BoUqWzzmpnLrZKO3RDZYEApqpHdOf4",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "60388 Frankfurt/Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.140829,
+               "lng" : 8.752516
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "57ca2024c561d9a52d93fd77805b6bab6bc12f63",
+         "name" : "Frisör Klier",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 267,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117192369529638408559\"\u003eFrisör Klier\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAF_WoSC6tPKAq59tOCwMZ-u4C1FwiYAoZ5h8_eOlVGFGH3bwQBirTnioHwhIbltklt94qThr4mEAo7damdfDmZ3zhOIMot6Yk8wtZw68EWapRndrJj89bUSojCUBAmQf5EhBFYXeUTL0dW7rVKVNXijeOGhTGRdmji4GIQVEeyHRZimtSwkNLZg",
+               "width" : 390
+            }
+         ],
+         "place_id" : "ChIJWdUmkE4OvUcRYDScXFK3npk",
+         "reference" : "CnRhAAAAHiJM29ynUE5YIf8mhPGhAxytQvzvMaEw91DE6yaP5rcUruEfJDiKbtR0iK1TsezugI5vsCrqIuYDZD1k4OhcQOIJVgvje6-fNUgXQ5KnP9Pm_XRZi3eQeMinNNDr2QK1ikpwLwXyP8EKKbnnFlZNhhIQpXLVr2oZxWnSlxlS-pSpQBoU7z4DNg7xtVumxD0zjPYXgbMwjYg",
+         "types" : [ "store", "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Eschersheimer Landstraße 36, 60322 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.120312,
+               "lng" : 8.677011
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "af05a5a06fde63d4e94e0ea738a4f42db7a11628",
+         "name" : "Purehair Frankfurt",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 121,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100434433563785013454\"\u003ePurehair Frankfurt\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRcAAAAvlrVpzZJ-Xv2ydRvDkj_LwelJzgiu38nfQ-gV8SqzOE6f7I2ahl5rVzT6oC1RAw-x2XCVkZJFXGQyVXmREIbwbvRE5705WzDZJ1SVkyshfBNLAjOyy3hE2srR1XYRxF4EhBl3SJARDfV7-YsU3sskuVIGhR8wuplkYE-LP3YBvXatvuY9GWnGQ",
+               "width" : 170
+            }
+         ],
+         "place_id" : "ChIJL5msYrEOvUcR_p-oY_vlNg0",
+         "reference" : "CnRlAAAA4ZQDISlmUOWv5zHpsWaQ4WZRFd1Vf_f_uY2owwiIefGDvn3K0xJGNisZT90dYg2SfVy79ueVCoxv1GXJY0BSjbGGrSyZcpOhyunTnYXH4DonghCSPYwhoSHiUSxEiCmaYJ1NZT3rTeYNhvA9huiJtBIQzj9JQDMkoBp3w1W8RkWdqxoUOkq4ZwA2cLNV51HrfAicWmRD3z0",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Mainzer Landstraße 305, 60326 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.102345,
+               "lng" : 8.639554
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/barber-71.png",
+         "id" : "eca6b05c4e20f342700acf1159f17fd1fcf18ae4",
+         "name" : "Coiffeur Torre",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 443,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114467965518441677159\"\u003eCoiffeur Torre\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRdAAAAtZLc0v6XEJsQQr1ib-IrnlcJjT0au4YsTUMTq5ezdITH3Dr7GdAkQ3isSp76h8ThhUDXdO4dQntiu89scW7_KIY4Yv710QTTYxhF9AAmtWdbWczspWbI3OFUEkqIL4G6EhAL84oGAeHlUKuRlgdSD8HTGhQlCM5oX-2cf3u9Yn2Unq-duNhbIQ",
+               "width" : 667
+            }
+         ],
+         "place_id" : "ChIJCSrLb-cLvUcRNdbVA4s7UlE",
+         "reference" : "CnRhAAAAhYSkKRDqd8GeoWXz7uf-1FlaPbaGVC_y3Fg2OOahU1R0qT7UlJ1q4CJHJwLXHWWQsFJT2x91HgJc1HvLHSybZaQEFpPmx-8aKyIFmFwp1P3AUsJPz1ZXv3L-2U2syHY1PBQEC0NqZG-XUADvGrhd3RIQI03E5bUScQhmC6Sqjtx8iBoU_Iho7JoNq-lzJWc_xVT-lYf-vZ0",
+         "types" : [ "beauty_salon", "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Zeil 90, 60313 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.11513,
+               "lng" : 8.68449
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "c2ecd8bbc8a4356f0ee0f162366a31218b6d470d",
+         "name" : "Super Cut",
+         "place_id" : "ChIJ8dlkPaUOvUcRCSxVBBlayuE",
+         "reference" : "CmRdAAAAilYFFxJxiOPWMvp9O42uG7lKUeclGffWQlsAAGXTTnMiTMUJ9Itm2kSC_R5CdLZxwF2ea4Ej-8DfHy0PANuOLpeaPWn7Jk5kq_UkF4w2C7X5NdAUTV8qKcMStZdN3fs9EhB6jVeWZ_4trq-vqqP2u3j4GhTQzAL14hUduqR2fpKlsYL0yd-rWQ",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      },
+      {
+         "formatted_address" : "Offenbacher Landstraße 300, 60599 Frankfurt am Main, Deutschland",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.100013,
+               "lng" : 8.72031
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8819519443befa3cb1a12a08c5d498ca4b4746c4",
+         "name" : "Oberräder Frisierstubb",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJpdpz99QNvUcR6duW1e7Npw0",
+         "reference" : "CnRqAAAAnc5IYYxhdujsWGJ_1XkKg922CSwt0c_r2_96WYqnzfgwP39LLpesFTGBVGKRA8VfaMf-lzx7o89QXdmXpgnlQlgGkcVwU7ZR72_RQQbKwHNNmpXJnJjjceigPLozuq8PVTJFfNHvimG6DO67i5IjSxIQOPm5BMKxJuqJrZW8YInj1hoUS6ZAO-f7VCCWvl28yv-80gaMCMo",
+         "types" : [ "hair_care", "point_of_interest", "establishment" ]
+      }
+   ],
+   "status" : "OK"
+}

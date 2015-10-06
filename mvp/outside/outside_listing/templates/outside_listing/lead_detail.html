@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}Outside - {{ lead.name }}{% endblock %}
+
+{% block main %}
+
+    <style>
+        html, body, .container-fluid, #map_canvas {
+            height: 100%;
+        }
+
+        .container-fluid {
+            width: 100%;
+
+            top: 0;
+            padding: 0;
+        }
+
+        #map_canvas {
+            margin-top:20px;
+        }
+    </style>
+    <div class="container">
+        <div class="col-xs-12">
+            <h1>{{ lead.name }}</h1>
+
+            <p>
+                {{ lead.address }}
+            </p>
+
+            <div class="row">
+                <div class="col-xs-6"><p>{{ lead.phone }}</p></div>
+                <div class="col-xs-6">
+                    <p>
+                        {% if lead.website %}
+                            <!--<a href="{{ lead.website }}" target="_blank">Google</a>-->
+                        {% endif %}
+                        {% if lead.google_places_url %}
+                            <a href="{{ lead.google_places_url }}" target="_blank"><i class="fa fa-external-link"></i>
+                                Website</a>
+                        {% endif %}
+                    </p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    {% if lead.comment %}
+                        {{ lead.comment }}
+                    {% endif %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="btn-group-vertical btn-block" role="group">
+                        <p>
+                        <a href="{{ url('lead-closed',id=lead.id) }}" class="btn btn-success btn-block">VERKAUF
+                            MELDEN</a>
+                        <a href="{{ url('lead-repeat',id=lead.id) }}" class="btn btn-warning btn-block">SPÄTER
+                            WIEDERHOLEN</a>
+                        <a href="{{ url('lead-feedback',id=lead.id) }}" class="btn btn-danger btn-block">FEEDBACK EINGEBEN</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="map_canvas" class="map_canvas"></div>
+    </div>
+
+    <script>
+        addLoadEvent(
+                function () {
+                    var mapDiv = document.getElementById("map_canvas");
+                    /// Set control options for map
+                    var zoptions = {
+                        position: google.maps.ControlPosition.TOP_RIGHT,
+                        style: google.maps.ZoomControlStyle.SMALL
+                    };
+                    /// Position of map using coord that were passed else do nothing.
+                    var pos = new google.maps.LatLng({{ lead.lat }}, {{ lead.lng }});
+                    /// Set basic map options using above control options
+                    var options = {
+                        zoom: 16,
+                        zoomControlOptions: zoptions,
+                        mapTypeId: google.maps.MapTypeId.TERRAIN,
+                        center: pos,
+                        draggable:false
+                    };
+                    this.map = new google.maps.Map(mapDiv, options);
+                    var marker = new google.maps.Marker({
+                        position:new google.maps.LatLng({{ lead.lat }}, {{ lead.lng }}),
+                        map: map,
+                        title: 'Hello World!'
+                    });
+
+
+                });
+    </script>
+{% endblock %}
+{% block additional_js %}
+    <script type='text/javascript'
+            src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+{% endblock %}

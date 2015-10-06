@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Outside{% endblock %}
+
+{% block menu_index %}active{% endblock %}
+{% block main %}
+
+<div class="container">
+    {% for lead in leads %}
+    <div class="row b-b {% if lead.closed %}closed{% endif %} {% if lead.repeat_at %}repeat{% endif %} {% if lead.lost %}lost{% endif %}">
+    <div class="col-xs-12">
+    {% if not lead.closed and not lead.lost %}<a href="{{  url('lead-detail', id=lead.id) }}">{% endif %}
+    <h3>{{ lead.name }}</h3>{% if not lead.closed %}</a>{% endif %}
+        {% if lead.repeat_at %}<i class="fa fa-clock-o"></i> {{ lead.repeat_at }}<br/>{% endif %}
+        {% if lead.closed %}<i class="fa fa-check-circle-o"></i> Abgeschlossen <br/>{% endif %}
+        {% if lead.lost %}<i class="fa fa-frown-o"></i> Kunde verloren <br/>{% endif %}
+    {{ lead.address }}
+</div>
+
+</div>
+
+    {% endfor %}
+</div>
+{% endblock %}
